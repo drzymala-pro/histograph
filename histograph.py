@@ -58,7 +58,7 @@ class Histograph():
                 result.append(sum(values))
             return result
 
-    def make_marker(self, year, month, day, hour, minute, second):
+    def make_marker(self, year=1970, month=1, day=1, hour=0, minute=0, second=0):
         microsecond = 0
         timezone = datetime.timezone(datetime.timedelta())
         return int(datetime.datetime(year, month, day, hour, minute, second, microsecond, timezone).timestamp())
