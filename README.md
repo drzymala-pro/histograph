@@ -7,7 +7,7 @@ Your data consists of timestamps. The resulting histogram will show you how many
 
 ## Example
 
-``` Python3
+``` Python
 from histograph import Histograph
 
 # Create the class
@@ -27,5 +27,7 @@ for x in range(5):
 print(h.get_histogram(resolution=10))
 ```
 The result will be:
-``` [1, 1, 1, 1, 1, 1, 6, 1, 1, 1] ```
+``` bash
+[1, 1, 1, 1, 1, 1, 6, 1, 1, 1] 
+```
 
